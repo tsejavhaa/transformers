@@ -1,4 +1,8 @@
 Swin Transformer/images/input/
 Swin Transformer/images/output/
 Swin Transformer/models/
+*.pth
+*.h5
+*.pkl
+*.model
 venv/

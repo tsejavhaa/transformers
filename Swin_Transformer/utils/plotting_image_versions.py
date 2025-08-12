@@ -274,10 +274,8 @@ def plot_all_versions(image_path, image_folder):
     # Show all plots
     plt.show()
     
-'''
-image_path = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/original/audrey.jpeg'
-name = os.path.basename(image_path).replace('.jpeg','')
-print(f'Found processed image for: {name}')
 
-plot_all_versions(image_folder=image_folder, image_path=image_path)
-'''
+#image_path = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin_Transformer/images/original/audrey.jpeg'
+#image_folder = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin_Transformer/images/input'
+
+#plot_all_versions(image_folder=image_folder, image_path=image_path)
