@@ -4,8 +4,8 @@ import numpy as np
 from PIL import Image
 from pathlib import Path
 
-image_folder = Path('/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/input') # Input images 
-print("Image folder:", image_folder.resolve())
+##image_folder = Path('/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/input') # Input images 
+##print("Image folder:", image_folder.resolve())
 
 def create_directories(image_folder):
     """Create necessary directories if they don't exist."""
@@ -120,6 +120,7 @@ def process_image(image_path, image_folder):
 
   print(f"\nProcessing complete! All versions saved for {name}")
 
+'''
 image_original_dir = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/original'
 
 for filename in os.listdir(image_original_dir):
@@ -131,3 +132,4 @@ for filename in os.listdir(image_original_dir):
             process_image(img_path, image_folder)
         except Exception as e:
             print(f"Error processing image {filename}: {e}")
+'''

@@ -6,7 +6,7 @@ import numpy as np
 from pathlib import Path
 from PIL import Image
 
-image_folder = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/input'
+#image_folder = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/input'
 
 def load_image_safe(path):
     """Safely load an image and handle errors"""
@@ -274,8 +274,10 @@ def plot_all_versions(image_path, image_folder):
     # Show all plots
     plt.show()
     
+'''
 image_path = '/Volumes/TOSHIBA/Github Repositories/transformers/Swin Transformer/images/original/audrey.jpeg'
 name = os.path.basename(image_path).replace('.jpeg','')
 print(f'Found processed image for: {name}')
 
 plot_all_versions(image_folder=image_folder, image_path=image_path)
+'''
